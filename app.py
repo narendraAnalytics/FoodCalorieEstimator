@@ -11,8 +11,6 @@ from agno.tools.duckduckgo import DuckDuckGoTools
 import matplotlib
 from textwrap import dedent
 
-
-
 # Use a non-interactive backend for Matplotlib
 matplotlib.use('Agg')
 
