@@ -302,6 +302,18 @@ def main():
             st.markdown(f"<p style='font-size: 24px; font-weight: bold; color: #2e7d32;'>{tdee} kcal</p>", unsafe_allow_html=True)
         else:
             st.warning("Provide age, weight, height for TDEE.")
+        
+        st.markdown("---")  # Add a separator
+        st.header("ℹ️ About This App")
+        st.markdown(
+            """
+            <div style="text-align: justify;">
+                The Food Calorie Estimator is an AI-powered tool that analyzes images of your meals to provide nutritional insights.  Simply upload an image of your food, and the app will attempt to identify the items, estimate their calorie content, and provide health-related advice.  For more detailed information, the app can also search the web for relevant nutritional data. This app is intended to support healthy eating habits by providing quick and easy access to food information.  It also provides personalized recommendations based on your health inputs.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        st.markdown("---")
 
 
     # --- Main Page UI Elements ---
