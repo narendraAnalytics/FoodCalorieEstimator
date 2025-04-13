@@ -513,6 +513,25 @@ def main():
 
         # Add a footer (optional)
         st.markdown("---")
+        
+        # Footer with contact information
+        st.markdown("""
+        <div style='text-align: center; padding: 20px;'>
+            <p style='margin-bottom: 10px;'>
+                <strong>Contact & Connect</strong>
+            </p>
+            <p>
+                <a href="mailto:your.email@example.com" style='text-decoration: none; margin: 0 10px;'>
+                    📧 your.email@example.com
+                </a>
+                |
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank" style='text-decoration: none; margin: 0 10px;'>
+                    👔 LinkedIn Profile
+                </a>
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
+        st.markdown("---")
         st.caption("Built with Streamlit & Google Gemini. AI estimations are approximate. Consult professionals for precise advice.")
 
         # Add minimal styling
