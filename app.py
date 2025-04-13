@@ -511,8 +511,7 @@ def main():
 
         
 
-        # Add a footer (optional)
-        st.markdown("---")
+        
         
         # Footer with contact information
         st.markdown("""
@@ -521,12 +520,12 @@ def main():
                 <strong>Contact & Connect</strong>
             </p>
             <p>
-                <a href="mailto:your.email@example.com" style='text-decoration: none; margin: 0 10px;'>
-                    📧 your.email@example.com
+                <a href="mailto:narendra.insights@gmail.com" style='text-decoration: none; margin: 0 10px;'>
+                    📧 narendra.insights@gmail.com
                 </a>
                 |
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank" style='text-decoration: none; margin: 0 10px;'>
-                    👔 LinkedIn Profile
+                <a href="https://www.linkedin.com/in/nk-analytics" target="_blank" style='text-decoration: none; margin: 0 10px;'>
+                    👔 Narendra Profile
                 </a>
             </p>
         </div>
