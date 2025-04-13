@@ -510,14 +510,11 @@ def main():
             st.markdown(formatted_info, unsafe_allow_html=True)
 
         
-
-        
-        
         # Footer with contact information
         st.markdown("""
         <div style='text-align: center; padding: 20px;'>
             <p style='margin-bottom: 10px;'>
-                <strong>Contact & Connect</strong>
+                <strong>Contact</strong>
             </p>
             <p>
                 <a href="mailto:narendra.insights@gmail.com" style='text-decoration: none; margin: 0 10px;'>
@@ -525,7 +522,7 @@ def main():
                 </a>
                 |
                 <a href="https://www.linkedin.com/in/nk-analytics" target="_blank" style='text-decoration: none; margin: 0 10px;'>
-                    👔 Narendra Profile
+                    👔 Narendra linkedin Profile
                 </a>
             </p>
         </div>
