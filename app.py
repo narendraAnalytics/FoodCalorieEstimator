@@ -362,7 +362,7 @@ def main():
             # Only show and enable the analyze button if all inputs are valid
             if is_valid:
                 if st.button("Analyze Image for Nutritional Information 🍽️", key="analyze_button"):
-                    with st.spinner("🔍 Analyzing the image... Please wait."):
+                    with st.spinner("🔍 Analyzing the image... Please wait.",show_time=True):
                         analysis_result = get_gemini_response(
                             image, name, st.session_state.user_age,
                             st.session_state.user_weight, st.session_state.user_height,
@@ -396,7 +396,7 @@ def main():
 
         # --- Display Nutritional Analysis ---
         st.subheader("🔬 Nutritional Analysis:")
-        with st.container(height=500): # Use container for scrollable results
+        with st.container(height=600): # Use container for scrollable results
              st.markdown(st.session_state.calorie_info) # Display stored analysis
   
         # --- Additional Info Section ---
@@ -405,7 +405,7 @@ def main():
         st.subheader("🌐 Get More Context (Web Search)")
 
         if st.button("Search Web Based on Analysis", key="web_search_button"):
-            with st.spinner("🤖 Searching the web..."):
+            with st.spinner("🤖 Searching the web...",show_time=True):
                 try:
                     dietary_planner = Agent(
                         model=Gemini(id="gemini-2.5-pro-exp-03-25", api_key=api_key),
