@@ -31,7 +31,7 @@ A Streamlit-based web application that uses Google's Gemini AI to analyze food i
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone [(https://github.com/narendraAnalytics/FoodCalorieEstimator.git)]
 cd IMAGEVISION
 ```
 
