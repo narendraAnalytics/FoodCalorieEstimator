@@ -111,5 +111,8 @@ Contributions, issues, and feature requests are welcome!
 
 ## 👥 Authors
 
-[Your Name/Organization]
+NarendraKumar
+
+## Project Link
+https://bit.ly/FoodCaloriesEstimator
 
